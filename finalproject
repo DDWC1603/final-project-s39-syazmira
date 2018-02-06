@@ -1,0 +1,30 @@
+/*
+S3.Travelling Expanses
+3. My wife and I want to go to the UK to attend a conference, and we are trying to make a program that can help us with the expanses
+
+--> You find this oppurtunity a good one, and hopefully this couple could give you a job for making a good budget/expanses program
+--> Your program should have :
+a. Number of days travel
+b. Departure Time
+c. Arrival Time
+d. Air Fare
+e. Car Rental Fare
+f. Taxi Fees
+g. Hotel Fees
+i. Daily Eats.
+*/
+
+/*
+STUDENT NAMES: 1. INTAN SYAZRIENA BINTI MOHD SHAHIDON (A17DW2281)
+               2. NUR AMIRAH AFIQAH BINTI MOHD. NAZLI ()
+*/
+
+#include <iostream>
+#include <cstring>
+#include <cmath>
+using namespace std;
+
+int main ()
+{
+
+}
