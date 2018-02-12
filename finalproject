@@ -139,6 +139,11 @@ double AirFare (double airfareFee)
          
     return airfareFee;
 }
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 double CarRentalAmount (double carRentalFee)
 {
     cout << "What was the total cost of any car rentals?" << endl;
@@ -203,6 +208,7 @@ void Fuel(double &fuelSpent, double &allowedFuel)
     fuelSpent = total_duration * fuelFee;
     allowedFuel = total_duration * 30;
 }
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 void TaxiExpenses (double &taxiSpent, double &allowedTaxiFee)
 {
     double taxiFee;
@@ -253,6 +259,18 @@ void Toll(double &tollSpent, double &allowedToll)
     tollSpent = total_duration * tollFee;
     allowedToll = total_duration * 5;
 }
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
 double ConferenceFee (double registrationFee)
 {
 	cout << "How much was spent on conference fees?" << endl;
@@ -285,6 +303,7 @@ void HotelAmount (double &allowedHotelFee, double &hotelFeeTotal)
 void MealExpenses(double &allowedMealTotal,double &spentMealTotal)
 {
     int days;
+    int total_duration;
     int numDays;
     double breakfast;
     double lunch;
