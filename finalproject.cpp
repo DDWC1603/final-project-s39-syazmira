@@ -80,6 +80,26 @@ int main ()
     double companyTotal;
     double total;																		//Overall total cost
     double allowedTotal;
+	
+	string employeeName;
+    int d;
+    
+    cout <<"Employee Expense Report" << endl; 
+    cout <<"_______________________" << endl << endl; 
+    
+    cout << "Employee Name: ";
+    cin >> employeeName;
+    cout << endl;
+      
+    total_duration = DaysTravel(days, nights);
+    d = total_duration;
+    cout << endl;
+    
+    DepartAndArriveTime (departureTime,arrivalTime);
+    cout << endl;
+	
+	airfareFee = AirFare(airfareFee);
+    carRentalFee = CarRentalAmount(carRentalFee);
 }
 int DaysTravel(int days, int nights)
 {
@@ -300,6 +320,7 @@ void HotelAmount (double &allowedHotelFee, double &hotelFeeTotal)
     allowedHotelFee = 90 * days;
     hotelFeeTotal= hotelFee * days;
 }
+/* salah la
 void MealExpenses(double &allowedMealTotal,double &spentMealTotal)
 {
     int days;
@@ -389,3 +410,4 @@ void MealExpenses(double &allowedMealTotal,double &spentMealTotal)
     allowedMealTotal = allowedBreaksfastFee+allowedLunchFee+allowedDinnerFee;
     spentMealTotal= breakfastFee +lunchFee +dinnerFee;  
 }
+*/
